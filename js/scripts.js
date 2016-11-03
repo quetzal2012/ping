@@ -18,7 +18,7 @@ return result;
 $(document).ready(function() {
   $("form#formPing").submit(function(event) {
     $("#userAnswer").empty();
-    var userInput = parseInt($("input#number").val());
+    var userInput = parseInt($("input#num").val());
     var result = pingPong(userInput);
     result.forEach(function(output) {
     $("#userAnswer").append("<li>" + output + "</li>");
