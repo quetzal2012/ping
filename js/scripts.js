@@ -1,7 +1,7 @@
 //back
 function pingPong(userInput){
 var result = [];
-for (var i = 1; i <= userInput; i++){
+for (var i = 1; i < userInput; i++){
   if ((i % 15) === 0){
     result.push ("Ping-Pong!");
   } else if ((i % 5) === 0){
