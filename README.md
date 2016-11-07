@@ -10,10 +10,10 @@ Allows the user to enter a number and then a list appears and is appended up to 
 
 ## Specs
 
-1. It displays pizza sizes in drop down forms.  It only allows one pizza to be selected.  It is checked when completed.
-2. It has check boxes used for toppings so that multiple toppings can be selected.  Multiple ingredients can be selected can be selected.
-3. It outputs a total.  The total is the sum of the size and as many ingredients with a submit button.  The price is calculated then outputted to the user.
-4. Allows users to enter in their data and have a receipt returned.  Their data is entered in rows and is then saved and displayed with their total.
+1. Allows users to enter an integer and be divided by 3, 5, and 15 in a form.
+2. Gives Ping for every integer entered that is divisible by 3. For every third number ie 15/3 = 3, 6, 9, 12 is Ping
+3 Gives Pong for every integer divisible by 5.  For example every fifth number ie 15/5 = 5, 10 is Pong
+4.Gives Ping-Pong for every integer divisible by 15.  For example 15 is entered and and on the fifteenth number ie 15/15 = 15 is outputted.
 
 
 ## Setup/Installation Requirements
